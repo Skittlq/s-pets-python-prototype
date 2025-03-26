@@ -1,0 +1,55 @@
+{
+  "name": "The Second Coming",
+  "description": "A Sample Character for S-Pets! The Second Coming, otherwise known as Orange from Alan Becker's channel! Frames drawn by https://x.com/StickLaserPhase",
+  "thumbnail": "thumbnail.png",
+  "actions": {
+    "idle": {
+      "loop": true,
+      "frames": [{ "image": "idle_0.png", "duration": 10 }]
+    },
+    "walk": {
+      "loop": true,
+      "frames": [
+        { "image": "walk_0.png", "duration": 6 },
+        { "image": "walk_1.png", "duration": 6 },
+        { "image": "walk_2.png", "duration": 6 },
+        { "image": "walk_3.png", "duration": 6 },
+        { "image": "walk_4.png", "duration": 6 },
+        { "image": "walk_5.png", "duration": 6 }
+      ]
+    },
+    "run": {
+      "loop": true,
+      "frames": [
+        { "image": "run_0.png", "duration": 3 },
+        { "image": "run_1.png", "duration": 3 },
+        { "image": "run_2.png", "duration": 3 },
+        { "image": "run_3.png", "duration": 3 },
+        { "image": "run_4.png", "duration": 3 },
+        { "image": "run_5.png", "duration": 3 },
+        { "image": "run_6.png", "duration": 3 },
+        { "image": "run_7.png", "duration": 3 },
+        { "image": "run_8.png", "duration": 3 },
+        { "image": "run_9.png", "duration": 3 },
+        { "image": "run_10.png", "duration": 3 },
+        { "image": "run_11.png", "duration": 3 }
+      ]
+    },
+    "fall": {
+      "loop": false,
+      "frames": [{ "image": "fall_0.png", "duration": 4 }]
+    },
+    "dragged": {
+      "loop": true,
+      "frames": [
+        { "image": "dragged_0.png", "duration": 6 },
+        { "image": "dragged_1.png", "duration": 6 },
+        { "image": "dragged_2.png", "duration": 6 },
+        { "image": "dragged_3.png", "duration": 6 },
+        { "image": "dragged_4.png", "duration": 6 },
+        { "image": "dragged_5.png", "duration": 6 },
+        { "image": "dragged_6.png", "duration": 6 }
+      ]
+    }
+  }
+}
