@@ -37,7 +37,7 @@ win32gui.SetWindowLong(
     | win32con.WS_EX_NOACTIVATE
 )
 
-transparent_color = (255, 0, 255)  # Magenta
+transparent_color = (0, 0, 0)  # Black
 win32gui.SetLayeredWindowAttributes(hwnd, win32api.RGB(*transparent_color), 0, win32con.LWA_COLORKEY)
 
 # Set window to always be on top
